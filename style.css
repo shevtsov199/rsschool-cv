@@ -50,8 +50,6 @@ p {
   position: absolute;
   right: 20%;
   top: 70px;
-  border: 10px solid white; 
-  border-radius: 50%;
 }
 
 #name-section {
@@ -63,7 +61,7 @@ p {
   text-transform: uppercase;
   color: white;
   text-shadow: 2px 2px 5px rgba(73,73,73,.7);
-  background: rgb(25, 181, 228);
+  background: rgb(150, 150, 150);
 }
 
 h3, h4 {

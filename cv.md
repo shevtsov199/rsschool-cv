@@ -1,7 +1,82 @@
-Aleksei Shevtsov
-Phone: +37533 3193191
-E-mail: shevtsov199@gmail.com
-Skills
-HTML
-CSS
-Basic JS
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Aleksei Shevtsov</title>
+</head>
+
+<body>
+    <header class="header">
+     <img id="ava" src="./images/avatar.jpg" height="200" width="200" alt="avatar">
+      <h1 id="name-section">Aleksei Shevtsov</h1>
+    </header>
+        <main class="main">
+             <section>
+        <h3>Contacts</h3>
+    <h1> Contacts</h1>
+        
+             <ul class="contacts">
+         
+          <li><b>Discord:</b> <a href="#">shevtsov199</a></li>
+          <li><b>Email:</b> <a href="shevtsov199@gmail.com">shevtsov199@gmail.com</a></li>
+          <li> <b>Phone:</b> +375333193191</li>
+        </ul>
+      </section>
+    <section>
+        <h3>About:</h3>
+
+                
+        <p> My goal is to change the profession of a design engineer and become a front-end developer             
+        </p>
+   <h3>Skills:</h3>
+
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Git</li>
+        </ul>
+      </section>
+      
+      
+      <section>
+        <h3>My code example:</h3>
+
+        <pre><code>
+            let arr = ["a", "b"];
+arr.push(function() {
+  alert( this );
+})
+        </code></pre>
+      </section>
+      <section>
+        <h3>Education:</h3>
+
+        <ul>
+        
+        
+        
+          <li>Belarusian-Russian University</li>
+          <li>Qualification: Mechanical engineer</li>
+          <li>Faculty: Faculty of Construction</li>
+          <li>Degree information: Graduate (master)</li>
+          <li>Graduation year: 2014</li>
+          
+          
+        </ul>
+      </section>
+      <section>
+        <h3>English</h3>
+
+        <p>A2 - Pre-Intermediate</p>
+      </section>
+    </main>
+    <footer class="footer">
+      <a class="footer-link" href="https://github.com/shevtsov199"><img src="./icons/github.svg" height="30" width="30" alt="github-icon">&emsp;Github</a>
+      <a class="footer-link" href="https://rs.school/js/"><img src="./icons/rs_school_js.svg" height="60" width="60" alt="rs-icon">&emsp;Rolling Scopes School</a>
+      <p>© 2021 Aleksei Shevtsov</p>
+    </footer>
+  </body>
+</html>
+   

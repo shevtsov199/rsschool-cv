@@ -1,7 +1,23 @@
-Aleksei Shevtsov
-Phone: +37533 3193191
-E-mail: shevtsov199@gmail.com
-Skills
-HTML
-CSS
-Basic JS
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Aleksei Shevtsov</title>
+</head>
+
+<body>
+    <h1> Aleksei Shevtsov</h1>
+    <h1> Contacts</h1>
+    <ol>
+        <li>Phone: +37533 3193191</li>
+        <li>E-mail: shevtsov199@gmail.com</li>
+    </ol>
+    <h1> Skills:</h1>
+    <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Basic JS</li>
+    </ol>
+</body>
+</html>
